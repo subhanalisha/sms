@@ -11,6 +11,7 @@
 </head>
 <body>
 	<div id="container">
+	<form action="smsmain.jsp" Method="post">
 		<table id="content">
 			<tr>
 				<td><label class="textfields">User Name:</label></td>
@@ -21,11 +22,11 @@
 				<td><input class="inputText" type="password" /></td>
 			</tr>
 				<tr  >
-				<td align="center" colspan="2"><a class="button" href="#">LOG IN</a></td>
+				<td align="center" colspan="2"><a class="button" href="smsmain.jsp">LOG IN</a></td>
 				
 			</tr>
 		</table>
-
+	</form>
 	</div>
 </body>
 </html>
